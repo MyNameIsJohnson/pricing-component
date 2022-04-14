@@ -1,0 +1,13 @@
+.btn {
+  border-radius:10px;
+  border: none;
+  height: 40px;
+  width: 100%;
+  background: linear-gradient(.25turn, hsl(236, 72%, 79%), 10%, hsl(237, 63%, 64%));
+
+}
+
+.professional .btn {
+  background-color: white;
+  color: hsl(236, 72%, 79%);
+}
