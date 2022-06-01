@@ -5,19 +5,16 @@ import Card from '../UI/Card';
 import Button from '../Button/Button';
 
 const Master = (props) => {
-  // const [filteredYear, setFilteredYear] = useState('2020');
 
-  // const filterChangeHandler = selectedyear => {
-  //   setFilteredYear(selectedyear)
-  //  }
   return (
     <Card className='master'>
-      {/* <MastersFilter selected={filteredYear} onChangeFilter={filterChangeHandler}/> */}
       {props.items.map((master) => 
-        <MasterItem 
+        <MasterItem
+          toggle = {props.toggle}        
           key={master.id} 
           title={master.title} 
           amount={master.amount}
+          yamount={master.yamount}
           storage={master.storage}        
           users={master.users}
           send={master.send}       

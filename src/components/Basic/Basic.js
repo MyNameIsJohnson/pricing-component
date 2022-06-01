@@ -5,33 +5,25 @@ import Card from '../UI/Card';
 import Button from '../Button/Button';
 
 const Basic = (props) => {
-  // const [filteredYear, setFilteredYear] = useState('2020');
 
-  // const filterChangeHandler = selectedyear => {
-  //   setFilteredYear(selectedyear)
-  //  }
-  console.log(props)
   return (
     <Card className='basic'>
-      {/* <BasicsFilter selected={filteredYear} onChangeFilter={filterChangeHandler}/> */}
       {props.items.map((basic) => 
-      
         <BasicItem 
+          toggle = {props.toggle}        
           key={basic.id} 
           title={basic.title} 
           amount={basic.amount} 
+          yamount={basic.yamount}
           storage={basic.storage}        
           users={basic.users}
           send={basic.send}
-        ></BasicItem>         
-
+        ></BasicItem>   
       )}
-      <Button />
-      
+      <Button />      
     </Card>
   )
 }
 
 export default Basic
-  // }
 
