@@ -6,6 +6,7 @@ function App(){
 
   return (
     <div className="App">
+      <h1>Ready to start?</h1>
       {/* Add html elements, Components with props attributes */}
 
     </div>
