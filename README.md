@@ -3,4 +3,4 @@
 Here is what you'll recreate
 ![](./public/images/Screenshot.png)
 
-You will clone this [starter code](https://github.com/MyNameIsJohnson/pricing-component/tree/start-code) from GitHub.
+You will clone this [starter code](https://github.com/MyNameIsJohnson/pricing-component) from GitHub.
