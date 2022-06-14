@@ -12,7 +12,7 @@
 
 ### Starting the project
 
-1. You can use `npm create-react-app <appName>` to build this project from scratch,
+1. You can use `npm create-react-app <appName>` or `npx create-react-app <appName> to build this project from scratch,
 
 OR
 
